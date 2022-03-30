@@ -27,17 +27,17 @@ See Google’s documentation about how to create a [Google Cloud Project](https:
 
 ### First Notebook
 
-Please run the [first notebook](https://github.com/IlyaLab/SL-Cloud/blob/main/first_notebook.ipynb) to start using our bigquery tables from your computer.  
+Please run the [first notebook](https://github.com/isb-cgc/SL-Cloud-F1000/blob/main/first_notebook.ipynb) to start using our bigquery tables from your computer.  
 
 ## What is There in the Project?
 ### Scripts
-- [Scripts folder](https://github.com/IlyaLab/SL-Cloud/tree/main/Scripts/): includes the functions that are used by DAISY and Mutation Dependent  SL Inference workflows explained below. This folder also contains scripts for data wrangling procedures like BigQuery dataset and table creation, how to save DEPMAP data in BigQuery tables, helper functions like writing dataframes into excel files and gene conversion among gene symbol, EntrezID and alias.
+- [Scripts folder](https://github.com/isb-cgc/SL-Cloud-F1000/tree/main/Scripts/): includes the functions that are used by DAISY and Mutation Dependent  SL Inference workflows explained below. This folder also contains scripts for data wrangling procedures like BigQuery dataset and table creation, how to save DEPMAP data in BigQuery tables, helper functions like writing dataframes into excel files and gene conversion among gene symbol, EntrezID and alias.
 
 ### Sythetic Lethality Inference Workflows 
 Example notebooks can be found in the Example_pipelines directory, which including the following notebooks:
-- [DAISY Pipeline](https://github.com/IlyaLab/SL-Cloud/blob/main/Example_workflows/DAISY_example.ipynb) :We reimplemented the published workflow DAISY (Jerby-Arnon et al., 2014) using up-to-date large scale data resources. </br>
-- [Mutation Dependent SL pipeline](https://github.com/IlyaLab/SL-Cloud/blob/main/Example_workflows/MDSLP_example.ipynb): We implemented a mutation-dependent synthetic lethality prediction (MDSLP) workflow based on the rationale that for tumors with mutations that have an impact on protein expression or protein structure (functional mutation), the knockout effects or inhibition of a partner target gene show conditional dependence for the mutated molecular entities.</br>
-- [Conservation-based Inference from Yeast Genetic Interactions](https://github.com/IlyaLab/SL-Cloud/blob/main/Example_workflows/CGI_example.ipynb): We presented a workflow that leverages cross-species conservation to infer experimentally-derived synthetic lethal interactions in yeast to predict relevant SL pairs in humans. We implemented the Conserved Genetic Interaction (CGI) workflow based, in part, on methods described in (Srivas et al., 2016). </br>
+- [DAISY Pipeline](https://github.com/isb-cgc/SL-Cloud-F1000/blob/main/Example_workflows/DAISY_example.ipynb) :We reimplemented the published workflow DAISY (Jerby-Arnon et al., 2014) using up-to-date large scale data resources. </br>
+- [Mutation Dependent SL pipeline](https://github.com/isb-cgc/SL-Cloud-F1000/blob/main/Example_workflows/MDSLP_example.ipynb): We implemented a mutation-dependent synthetic lethality prediction (MDSLP) workflow based on the rationale that for tumors with mutations that have an impact on protein expression or protein structure (functional mutation), the knockout effects or inhibition of a partner target gene show conditional dependence for the mutated molecular entities.</br>
+- [Conservation-based Inference from Yeast Genetic Interactions](https://github.com/isb-cgc/SL-Cloud-F1000/blob/main/Example_workflows/CGI_example.ipynb): We presented a workflow that leverages cross-species conservation to infer experimentally-derived synthetic lethal interactions in yeast to predict relevant SL pairs in humans. We implemented the Conserved Genetic Interaction (CGI) workflow based, in part, on methods described in (Srivas et al., 2016). </br>
 
 ### Synthetic-Lethality Inference Data Resources
 This resource provides access to publicly available cancer genomics datasets relevant for SL inference. These data have been pre-processed, cleaned and stored in cloud-based query-able tables leveraging [Google BigQuery](https://cloud.google.com/bigquery)  technology. In addition we leverage relevant datasets available through the Institute for Systems Biology Cancer Genomics Cloud ([ISB-CGC](https://isb-cgc.appspot.com/)) to make inferences of potential synthetic lethal interactions. 
