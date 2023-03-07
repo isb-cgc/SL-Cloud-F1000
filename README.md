@@ -5,9 +5,9 @@ This project provides a cloud-based data access platform coupled with software a
 Open the framework in **MyBinder**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isb-cgc/SL-Cloud-F1000/HEAD?labpath=MyBinder_Authentication.ipynb)
 
 Citation: 
-Bahar Tercan, Guangrong Qin, Taek-Kyun Kim, Boris Aguilar, Christopher J. Kemp, Nyasha Chambwe, Ilya Shmulevich. SL-Cloud: A Computational Resource to Support Synthetic Lethal Interaction Discovery. BioRxiv 2021.09.18.459450; doi: https://doi.org/10.1101/2021.09.18.459450
+Tercan B, Qin G, Kim TK et al. SL-Cloud: A Cloud-based resource to support synthetic lethal interaction discovery [version 2; peer review: 2 approved]. F1000Research 2022, 11:493 (https://doi.org/10.12688/f1000research.110903.2)
 
- If you have any questions, please reach out Bahar Tercan btercan@isbscience.org. 
+If you have any questions, please reach out Bahar Tercan btercan@isbscience.org. 
 ## Getting Started
 
 ### Get a Google Identity
